@@ -44,7 +44,6 @@ rllab/config_personal.py
 *.sh
 MNIST/
 logs/
-*.pkl
 *.ipynb
 .remote-sync.json
 sandbox/rocky/exp_data
