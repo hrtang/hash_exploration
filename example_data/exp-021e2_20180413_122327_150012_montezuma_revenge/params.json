@@ -1,0 +1,181 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAQAAABhcmdzcQcpWAYAAABrd2FyZ3NxCH1xCShYAwAAAGVudnEKaAQpgXELfXEMKGgHKWgIfXENKFgEAAAAZ2FtZXEOWBEAAABtb250ZXp1bWFfcmV2ZW5nZXEPWAQAAABzZWVkcRBLAVgJAAAAaW1nX3dpZHRocRFLVFgKAAAAaW1nX2hlaWdodHESS1RYCAAAAG9ic190eXBlcRNYAwAAAHJhbXEUWAoAAAByZWNvcmRfcmFtcRWIWAwAAAByZWNvcmRfaW1hZ2VxFolYEAAAAHJlY29yZF9yZ2JfaW1hZ2VxF4lYFQAAAHJlY29yZF9pbnRlcm5hbF9zdGF0ZXEYiVgKAAAAZnJhbWVfc2tpcHEZSwRYEQAAAG1heF9zdGFydF9udWxsb3BzcRpLHnVYCwAAAHByb3h5X2NsYXNzcRtjc2FuZGJveC5oYW9yYW4uaGFzaGluZy5ib251c190cnBvLmVudnMuYXRhcmlfZW52CkF0YXJpRW52CnEcdWJYBgAAAHBvbGljeXEdaAQpgXEefXEfKGgHKWgIfXEgKFgIAAAAZW52X3NwZWNxIWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcSIpgXEjfXEkKFgEAAAAX29ianElaAtYCgAAAF9hdHRyX25hbWVxJlgEAAAAc3BlY3EndWJYDAAAAGhpZGRlbl9zaXplc3EoSyBLIIZxKXVoG2NybGxhYi5wb2xpY2llcy5jYXRlZ29yaWNhbF9tbHBfcG9saWN5CkNhdGVnb3JpY2FsTUxQUG9saWN5CnEqdWJYCAAAAGJhc2VsaW5lcStoBCmBcSx9cS0oaAcpaAh9cS4oaCFoIimBcS99cTAoaCVoC2gmaCd1YlgOAAAAcmVncmVzc29yX2FyZ3NxMX1xMihYCQAAAG9wdGltaXplcnEzaAQpgXE0fXE1KGgHKWgIfXE2KFgQAAAAc3Vic2FtcGxlX2ZhY3RvcnE3Rz/gAAAAAAAAWAgAAABjZ19pdGVyc3E4SwpYBAAAAG5hbWVxOVgGAAAAdmZfb3B0cTp1aBtjc2FuZGJveC5oYW9yYW4ucGFyYWxsZWxfdHJwby5jb25qdWdhdGVfZ3JhZGllbnRfb3B0aW1pemVyClBhcmFsbGVsQ29uanVnYXRlR3JhZGllbnRPcHRpbWl6ZXIKcTt1YlgQAAAAdXNlX3RydXN0X3JlZ2lvbnE8iFgJAAAAc3RlcF9zaXplcT1HP4R64UeuFHtYCQAAAGJhdGNoc2l6ZXE+SkBCDwBYEAAAAG5vcm1hbGl6ZV9pbnB1dHNxP4hYEQAAAG5vcm1hbGl6ZV9vdXRwdXRzcUCIaChLIEsghnFBWAwAAABjb252X2ZpbHRlcnNxQl1xQ1gRAAAAY29udl9maWx0ZXJfc2l6ZXNxRF1xRVgMAAAAY29udl9zdHJpZGVzcUZdcUdYCQAAAGNvbnZfcGFkc3FIXXFJdXVoG2NzYW5kYm94LmFkYW0ucGFyYWxsZWwuZ2F1c3NpYW5fY29udl9iYXNlbGluZQpQYXJhbGxlbEdhdXNzaWFuQ29udkJhc2VsaW5lCnFKdWJYDwAAAGJvbnVzX2V2YWx1YXRvcnFLaAQpgXFMfXFNKGgHKWgIfXFOKFgKAAAAbG9nX3ByZWZpeHFPWAAAAABxUFgJAAAAc3RhdGVfZGltcVFoACmBcVJ9cVMoaAMoaAQpgXFUfXFVKGgHKWgIfXFWKFgJAAAAbl9jaGFubmVscVdLAVgFAAAAd2lkdGhxWEuAWAYAAABoZWlnaHRxWUsBdWgbY3NhbmRib3guaGFvcmFuLmhhc2hpbmcuYm9udXNfdHJwby5ib251c19ldmFsdWF0b3JzLnByZXByb2Nlc3Nvci5pbWFnZV92ZWN0b3JpemVfcHJlcHJvY2Vzc29yCkltYWdlVmVjdG9yaXplUHJlcHJvY2Vzc29yCnFadWJYDgAAAGdldF9vdXRwdXRfZGltcVspfXFcdHFdWAgAAABfX2t3YXJnc3FefXFfdWJYEgAAAHN0YXRlX3ByZXByb2Nlc3NvcnFgaFRYBAAAAGhhc2hxYWgEKYFxYn1xYyhoByloCH1xZChYCAAAAGl0ZW1fZGltcWVoACmBcWZ9cWcoaAMoaFRoWyl9cWh0cWloXn1xanViaA5oD1gJAAAAcmFtX25hbWVzcWtdcWwoWAEAAAB4cW1YAQAAAHlxblgEAAAAcm9vbXFvWAcAAABvYmplY3RzcXBYCQAAAGJlYW1fd2FsbHFxZVgKAAAAZXh0cmFfaW5mb3FyfXFzKGhtfXF0WAkAAABncmlkX3NpemVxdUsKc2hufXF2aHVLCnN1WAgAAABwYXJhbGxlbHF3iHVoG2NzYW5kYm94Lmhhb3Jhbi5oYXNoaW5nLmJvbnVzX3RycG8uYm9udXNfZXZhbHVhdG9ycy5oYXNoLmFsZV9oYWNreV9oYXNoX3Y1CkFMRUhhY2t5SGFzaFY1CnF4dWJYCgAAAGJvbnVzX2Zvcm1xeVgJAAAAMS9zcXJ0KG4pcXpYDAAAAGNvdW50X3RhcmdldHF7WAoAAAByYW1fc3RhdGVzcXxod4hYFAAAAHJldHJpZXZlX3NhbXBsZV9zaXplcX1KoIYBAHVoG2NzYW5kYm94Lmhhb3Jhbi5oYXNoaW5nLmJvbnVzX3RycG8uYm9udXNfZXZhbHVhdG9ycy5hbGVfaGFzaGluZ19ib251c19ldmFsdWF0b3IKQUxFSGFzaGluZ0JvbnVzRXZhbHVhdG9yCnF+dWJYCwAAAGJvbnVzX2NvZWZmcX9jbnVtcHkuY29yZS5tdWx0aWFycmF5CnNjYWxhcgpxgGNudW1weQpkdHlwZQpxgVgCAAAAZjhxgksASwGHcYNScYQoSwNYAQAAADxxhU5OTkr/////Sv////9LAHRxhmJDCHM6oE7cMKA/cYeGcYhScYlYCgAAAGJhdGNoX3NpemVxikqghgEAWA8AAABtYXhfcGF0aF9sZW5ndGhxi02UEVgIAAAAZGlzY291bnRxjEc/764UeuFHrlgFAAAAbl9pdHJxjU3oA1gLAAAAY2xpcF9yZXdhcmRxjohYBAAAAHBsb3Rxj4lYDgAAAG9wdGltaXplcl9hcmdzcZB9cZEoaDlYBgAAAHBpX29wdHGSaDhLClgJAAAAcmVnX2NvZWZmcZNHPuT4tYjjaPFoN0c/8AAAAAAAAFgOAAAAbWF4X2JhY2t0cmFja3NxlEsPWA8AAABiYWNrdHJhY2tfcmF0aW9xlUc/6ZmZmZmZmlgQAAAAYWNjZXB0X3Zpb2xhdGlvbnGWiVgMAAAAaHZwX2FwcHJvYWNocZdOWAoAAABudW1fc2xpY2VzcZhLAXVoPUc/hHrhR64Ue1gQAAAAc2V0X2NwdV9hZmZpbml0eXGZiFgPAAAAY3B1X2Fzc2lnbm1lbnRzcZpOWA4AAABzZXJpYWxfY29tcGlsZXGbiFgKAAAAbl9wYXJhbGxlbHGcSxJ1aBtjc2FuZGJveC5oYW9yYW4ucGFyYWxsZWxfdHJwby50cnBvClBhcmFsbGVsVFJQTwpxnXViWAUAAAB0cmFpbnGeKX1xn3RxoGhefXGhdWIu",
+  "exp_name": "exp-021e2_20180413_122327_150012_montezuma_revenge",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.haoran.parallel_trpo.trpo.ParallelTRPO",
+      "batch_size": 100000,
+      "bonus_coeff": 0.0316227766016838,
+      "bonus_evaluator": {
+        "_name": "sandbox.haoran.hashing.bonus_trpo.bonus_evaluators.ale_hashing_bonus_evaluator.ALEHashingBonusEvaluator",
+        "bonus_form": "1/sqrt(n)",
+        "count_target": "ram_states",
+        "hash": {
+          "_name": "sandbox.haoran.hashing.bonus_trpo.bonus_evaluators.hash.ale_hacky_hash_v5.ALEHackyHashV5",
+          "extra_info": {
+            "x": {
+              "grid_size": 10
+            },
+            "y": {
+              "grid_size": 10
+            }
+          },
+          "game": "montezuma_revenge",
+          "item_dim": {
+            "args": [],
+            "kwargs": {},
+            "method_name": "get_output_dim",
+            "obj": {
+              "_name": "sandbox.haoran.hashing.bonus_trpo.bonus_evaluators.preprocessor.image_vectorize_preprocessor.ImageVectorizePreprocessor",
+              "height": 1,
+              "n_channel": 1,
+              "width": 128
+            }
+          },
+          "parallel": true,
+          "ram_names": [
+            "x",
+            "y",
+            "room",
+            "objects",
+            "beam_wall"
+          ]
+        },
+        "log_prefix": "",
+        "parallel": true,
+        "retrieve_sample_size": 100000,
+        "state_dim": {
+          "args": [],
+          "kwargs": {},
+          "method_name": "get_output_dim",
+          "obj": {
+            "_name": "sandbox.haoran.hashing.bonus_trpo.bonus_evaluators.preprocessor.image_vectorize_preprocessor.ImageVectorizePreprocessor",
+            "height": 1,
+            "n_channel": 1,
+            "width": 128
+          }
+        },
+        "state_preprocessor": {
+          "_name": "sandbox.haoran.hashing.bonus_trpo.bonus_evaluators.preprocessor.image_vectorize_preprocessor.ImageVectorizePreprocessor",
+          "height": 1,
+          "n_channel": 1,
+          "width": 128
+        }
+      },
+      "clip_reward": true,
+      "cpu_assignments": null,
+      "discount": 0.99,
+      "max_path_length": 4500,
+      "n_itr": 1000,
+      "n_parallel": 18,
+      "optimizer_args": {
+        "accept_violation": false,
+        "backtrack_ratio": 0.8,
+        "cg_iters": 10,
+        "hvp_approach": null,
+        "max_backtracks": 15,
+        "name": "pi_opt",
+        "num_slices": 1,
+        "reg_coeff": 1e-05,
+        "subsample_factor": 1.0
+      },
+      "plot": false,
+      "serial_compile": true,
+      "set_cpu_affinity": true,
+      "step_size": 0.01
+    },
+    "baseline": {
+      "_name": "sandbox.adam.parallel.gaussian_conv_baseline.ParallelGaussianConvBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.haoran.hashing.bonus_trpo.envs.atari_env.AtariEnv",
+          "frame_skip": 4,
+          "game": "montezuma_revenge",
+          "img_height": 84,
+          "img_width": 84,
+          "max_start_nullops": 30,
+          "obs_type": "ram",
+          "record_image": false,
+          "record_internal_state": false,
+          "record_ram": true,
+          "record_rgb_image": false,
+          "seed": 1
+        }
+      },
+      "regressor_args": {
+        "batchsize": 1000000,
+        "conv_filter_sizes": [],
+        "conv_filters": [],
+        "conv_pads": [],
+        "conv_strides": [],
+        "hidden_sizes": [
+          32,
+          32
+        ],
+        "normalize_inputs": true,
+        "normalize_outputs": true,
+        "optimizer": {
+          "_name": "sandbox.haoran.parallel_trpo.conjugate_gradient_optimizer.ParallelConjugateGradientOptimizer",
+          "cg_iters": 10,
+          "name": "vf_opt",
+          "subsample_factor": 0.5
+        },
+        "step_size": 0.01,
+        "use_trust_region": true
+      }
+    },
+    "env": {
+      "_name": "sandbox.haoran.hashing.bonus_trpo.envs.atari_env.AtariEnv",
+      "frame_skip": 4,
+      "game": "montezuma_revenge",
+      "img_height": 84,
+      "img_width": 84,
+      "max_start_nullops": 30,
+      "obs_type": "ram",
+      "record_image": false,
+      "record_internal_state": false,
+      "record_ram": true,
+      "record_rgb_image": false,
+      "seed": 1
+    },
+    "policy": {
+      "_name": "rllab.policies.categorical_mlp_policy.CategoricalMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.haoran.hashing.bonus_trpo.envs.atari_env.AtariEnv",
+          "frame_skip": 4,
+          "game": "montezuma_revenge",
+          "img_height": 84,
+          "img_width": 84,
+          "max_start_nullops": 30,
+          "obs_type": "ram",
+          "record_image": false,
+          "record_internal_state": false,
+          "record_ram": true,
+          "record_rgb_image": false,
+          "seed": 1
+        }
+      },
+      "hidden_sizes": [
+        32,
+        32
+      ]
+    }
+  },
+  "log_dir": "/home/ubuntu/hashing/data/local/bonus-trpo-atari/exp-021e2/exp-021e2_20180413_122327_150012_montezuma_revenge",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 2000,
+  "snapshot_gap": 100,
+  "snapshot_mode": "gap",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClZhcmlhbnREaWN0CnEAKYFxAShYCwAAAGJvbnVzX2NvZWZmcQJHP4R64UeuFHtYDAAAAGNvdW50X3RhcmdldHEDWAoAAAByYW1fc3RhdGVzcQRYBAAAAGdhbWVxBVgRAAAAbW9udGV6dW1hX3JldmVuZ2VxBlgJAAAAZ3JpZF9zaXplcQdLClgJAAAAcmFtX25hbWVzcQhdcQkoWAEAAAB4cQpYAQAAAHlxC1gEAAAAcm9vbXEMWAcAAABvYmplY3RzcQ1YCQAAAGJlYW1fd2FsbHEOZVgEAAAAc2VlZHEPTdAHWAwAAABfaGlkZGVuX2tleXNxEF1xEVgIAAAAZXhwX25hbWVxElgyAAAAZXhwLTAyMWUyXzIwMTgwNDEzXzEyMjMyN18xNTAwMTJfbW9udGV6dW1hX3JldmVuZ2VxE3VoAWIu",
+  "variant_log_file": "variant.json"
+}

@@ -1,0 +1,16 @@
+{
+  "_hidden_keys": [],
+  "bonus_coeff": 0.01,
+  "count_target": "ram_states",
+  "exp_name": "exp-021e2_20180413_122327_150012_montezuma_revenge",
+  "game": "montezuma_revenge",
+  "grid_size": 10,
+  "ram_names": [
+    "x",
+    "y",
+    "room",
+    "objects",
+    "beam_wall"
+  ],
+  "seed": 2000
+}
