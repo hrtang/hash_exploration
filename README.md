@@ -8,7 +8,7 @@ The follwing command trains an agent on Montezuma's Revenge, as described in Sec
 Please be reminded that training outcomes depend dramatically on the random seeds. The script above usually gives a final score among 400, 500, 2500, 6500, and other values, though the random seed `2000` is already chosen to achieve a score of 6500.
 
 The following command simulates a well-trained agent that gets 6500 points.<br/>
-`python scripts/sim_policy.py  tmp/success.pkl`
+`python scripts/sim_policy.py  example_data/success.pkl`
 
 Please install Thenao and Lasagne via <br/>
 `pip install theano` <br/>
