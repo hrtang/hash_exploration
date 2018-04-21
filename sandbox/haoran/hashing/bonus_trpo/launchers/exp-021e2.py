@@ -32,7 +32,6 @@ from sandbox.haoran.hashing.bonus_trpo.bonus_evaluators.preprocessor.image_vecto
 
 """ others """
 from sandbox.haoran.myscripts.myutilities import get_time_stamp
-from sandbox.haoran.ec2_info import instance_info, subnet_info
 from rllab.misc.instrument import stub, run_experiment_lite
 import sys,os
 import copy

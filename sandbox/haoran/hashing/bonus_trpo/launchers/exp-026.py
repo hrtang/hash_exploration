@@ -34,7 +34,6 @@ from sandbox.haoran.hashing.feature_extractors.bass_feature_extractor import Bas
 
 """ others """
 from sandbox.haoran.myscripts.myutilities import get_time_stamp
-from sandbox.haoran.ec2_info import instance_info, subnet_info
 from rllab import config
 from rllab.misc.instrument import stub, run_experiment_lite
 import sys,os

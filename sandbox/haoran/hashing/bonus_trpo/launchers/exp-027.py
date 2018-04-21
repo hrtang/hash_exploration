@@ -30,7 +30,6 @@ from sandbox.haoran.hashing.bonus_trpo.bonus_evaluators.preprocessor.slicing_pre
 
 """ others """
 from sandbox.haoran.myscripts.myutilities import get_time_stamp
-from sandbox.haoran.ec2_info import instance_info, subnet_info
 from rllab import config
 from rllab.misc.instrument import stub, run_experiment_lite
 import sys,os
@@ -43,12 +42,9 @@ from rllab.misc.instrument import VariantGenerator, variant
 # exp setup -----------------------------------------------------
 exp_index = os.path.basename(__file__).split('.')[0] # exp_xxx
 exp_prefix = "bonus-trpo-atari/" + exp_index
-mode = "ec2"
-ec2_instance = "c4.8xlarge"
-subnet = "us-west-1a"
-config.DOCKER_IMAGE = "tsukuyomi2044/rllab3" # needs psutils
+mode = "local"
 
-n_parallel = 2 # only for local exp
+n_parallel = 18 # only for local exp
 snapshot_mode = "gap"
 snapshot_gap = 200
 plot = False
@@ -91,17 +87,6 @@ class VG(VariantGenerator):
     def count_target(self):
         return ["observations"]
 variants = VG().variants()
-
-# test whether all game names are spelled correctly (comment out stub(globals) first)
-# tested_games = []
-# for v in variants:
-#     game = v["game"]
-#     if game not in tested_games:
-#         env = AtariEnv(game=game)
-#         print("Game %s tested"%(game))
-#         tested_games.append(game)
-# sys.exit(0)
-
 
 print("#Experiments: %d" % len(variants))
 for v in variants:
@@ -168,49 +153,8 @@ for v in variants:
         time=get_time_stamp(),
         game=game,
     )
-    if ("ec2" in mode) and (len(exp_name) > 64):
-        print("Should not use experiment name with length %d > 64.\nThe experiment name is %s.\n Exit now."%(len(exp_name),exp_name))
-        sys.exit(1)
-
-    if use_gpu:
-        config.USE_GPU = True
-        config.DOCKER_IMAGE = "dementrock/rllab3-shared-gpu"
-
-    if "local_docker" in mode:
-        actual_mode = "local_docker"
-    elif "local" in mode:
+    if "local" in mode:
         actual_mode = "local"
-    elif "ec2" in mode:
-        actual_mode = "ec2"
-        # configure instance
-        info = instance_info[ec2_instance]
-        config.AWS_INSTANCE_TYPE = ec2_instance
-        config.AWS_SPOT_PRICE = str(info["price"])
-        n_parallel = int(info["vCPU"] /2)
-
-        # choose subnet
-        config.AWS_NETWORK_INTERFACES = [
-            dict(
-                SubnetId=subnet_info[subnet]["SubnetID"],
-                Groups=subnet_info[subnet]["Groups"],
-                DeviceIndex=0,
-                AssociatePublicIpAddress=True,
-            )
-        ]
-    elif "kube" in mode:
-        actual_mode = "lab_kube"
-        info = instance_info[ec2_instance]
-        n_parallel = int(info["vCPU"] /2)
-
-        config.KUBE_DEFAULT_RESOURCES = {
-            "requests": {
-                "cpu": int(info["vCPU"]*0.75)
-            }
-        }
-        config.KUBE_DEFAULT_NODE_SELECTOR = {
-            "aws/type": ec2_instance
-        }
-        exp_prefix = exp_prefix.replace('/','-') # otherwise kube rejects
     else:
         raise NotImplementedError
 

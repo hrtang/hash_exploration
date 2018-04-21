@@ -163,7 +163,6 @@ for v in variants:
     n_last_screens=4
     clip_reward = True
     obs_type = "image"
-    count_target = v["count_target"]
     record_image=False
     record_rgb_image=True
     record_ram=False
