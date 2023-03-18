@@ -2,9 +2,6 @@
 Haoran Tang*, Rein Houthooft*, Davis Foote, Adam Stooke, Xi Chen, Yan Duan, John Schulman, Filip De Turck, Pieter Abbeel<br/> 
 (http://papers.nips.cc/paper/6868-exploration-a-study-of-count-based-exploration-for-deep-reinforcement-learning)
 
-**Please DO NOT distribute the code without the authors' permission.** <br/>
-**The code base is still at an experimental stage. A well-maintained version will be released in the future.** <br/>
-
 #### Prerequisites
 Please install Thenao and Lasagne via <br/>
 `pip install theano` (version 1.0.1) <br/>
